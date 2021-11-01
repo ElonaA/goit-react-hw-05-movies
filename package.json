@@ -2,8 +2,7 @@
   "name": "goit-react-hw-03-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ElonaA.github.io/goit-react-hw-04-hooks-images",
-  "dependencies": {
+    "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "@styled-icons/bootstrap": "^10.34.0",
@@ -27,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/ElonaA/goit-react-hw-04-hooks-images",
+    "deploy": "netlify deploy -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
